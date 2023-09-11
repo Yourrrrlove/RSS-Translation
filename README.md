@@ -11,7 +11,12 @@
 
 ## 已转换翻译源
 
- - source001 [http://www.mckinsey.com/insights/rss](http://www.mckinsey.com/insights/rss) -> [mckinsey_rss.xml](rss/mckinsey_rss.xml)
- - source002 [http://www.mckinsey.com/insights/rss](http://www.mckinsey.com/insights/rss) -> [mckinsey_iw_rss.xml](rss/mckinsey_iw_rss.xml)
+ - source001 [https://feedx.best/rss/chinadaily.xml](https://feedx.best/rss/chinadaily.xml) -> [chinadaily_rss.xml](rss/chinadaily_rss.xml)
+ - source002 [https://feedx.best/rss/economist.xml](https://feedx.best/rss/economist.xml) -> [economist_rss.xml](rss/economist_rss.xml)
  - source003 [http://rss.acast.com/nature](http://rss.acast.com/nature) -> [nature_rss.xml](rss/nature_rss.xml)
- - source004 [http://feeds.bbci.co.uk/news/rss.xml](http://feeds.bbci.co.uk/news/rss.xml) -> [BBC_Top_Stories_rss.xml](rss/BBC_Top_Stories_rss.xml)
+ - source004 [https://feedx.best/rss/newyorker.xml](https://feedx.best/rss/newyorker.xml) -> [newyorker_rss.xml](rss/newyorker_rss.xml)
+ - source005 [https://feedx.best/rss/voalearningenglish.xml](https://feedx.best/rss/voalearningenglish.xml) -> [voalearningenglish_rss.xml](rss/voalearningenglish_rss.xml)
+ - source006 [https://feedx.best/rss/wikienindex.xml](https://feedx.best/rss/wikienindex.xml) -> [wikienindex_rss.xml](rss/wikienindex_rss.xml)
+ - source007 [https://feedx.best/rss/reutersen.xml](https://feedx.best/rss/reutersen.xml) -> [reutersen_rss.xml](rss/reutersen_rss.xml)
+ - source008 [https://feedx.best/rss/hbr.xml](https://feedx.best/rss/hbr.xml) -> [havard_rss.xml](rss/havard_rss.xml)
+ - source009 [https://feedx.best/rss/guardian.xml](https://feedx.best/rss/guardian.xml) -> [guardian_rss.xml](rss/guardian_rss.xml)
