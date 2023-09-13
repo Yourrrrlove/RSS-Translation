@@ -20,3 +20,8 @@
  - source007 [https://feedx.best/rss/reutersen.xml](https://feedx.best/rss/reutersen.xml) -> [reutersen_rss.xml](rss/reutersen_rss.xml)
  - source008 [https://feedx.best/rss/hbr.xml](https://feedx.best/rss/hbr.xml) -> [havard_rss.xml](rss/havard_rss.xml)
  - source009 [https://feedx.best/rss/guardian.xml](https://feedx.best/rss/guardian.xml) -> [guardian_rss.xml](rss/guardian_rss.xml)
+ - source0010 [https://feedx.best/rss/one.xml](https://feedx.best/rss/one.xml) -> [ONE_rss.xml](rss/ONE_rss.xml)
+ - source0011 [https://feedx.best/rss/shiwen.xml](https://feedx.best/rss/shiwen.xml) -> [dailypoem_rss.xml](rss/dailypoem_rss.xml)
+ - source0012 [https://feedx.best/rss/shiwen.xml](https://feedx.best/rss/shiwen.xml) -> [dailypoem_rss.xml](rss/dailypoem_rss.xml)
+ - source0013 [https://feedx.best/rss/people.xml](https://feedx.best/rss/people.xml) -> [renminribao_rss.xml](rss/renminribao_rss.xml)
+ - source0014 [https://feedx.best/rss/infzm.xml](https://feedx.best/rss/infzm.xml) -> [nanfangzhoumo_rss.xml](rss/nanfangzhoumo_rss.xml)
