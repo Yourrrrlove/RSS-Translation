@@ -1,2 +1,116 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml"><head><meta content="text/html;charset=utf-8" http-equiv="Content-Type"/><meta content="no-referrer" name="referrer"/><title></title><script type="text/javascript">top.location.href="/beam.php?tcid=&target=aHR0cHM6Ly83OTQ5Nzcuc2F2ZW91cnNwYWNlLmNvLz9vd25pZD1naHZ5LmN3dnZ1XzE1MSZlbnBhcm1zMj03NDc0JTJDMTk0MDU0MSUyQzM5MDQ1NjIlMkM3NDI1JTJDNzQyOSUyQzEyNDI0JTJDNzYzNSUyQzAlMkMwJTJDNzQyOSUyQzAlMkMxOTM5ODUxJTJDNzk0OTc3JTJDNjkyNDMlMkMxMTI1NzgzNjE0NjklMkMxNzgyNDAzNCUyQ2dodnkuY3d2dnUmdV9hZ250PWZkZWY5NjQ5YTA0ZWU3ZTEwNTIyZjEyYmY2MzVjNWE1JnNrdGVyPXRtcnB4emlnJTIwY3Z3dnUlMkN2aGlscyUyMG9jd3Z2dSUyQ21ydGxvJTIwb2N3dnZ1JTJDaGhpJTIwY3Z3dnUlMkNiemtjd3Z2dSUyQ29jd3Z2dSUyQ2N2d3Z1JTJDY3d2dnUmY3plcm89LTEmY3N0YXRlPXpybXJ0aXJlJnNrd2RiPU1MSSZjY250cnk9SEYmY2N0aWQ9MTA5JmNoc2g9ODZkNDIxNWQ5ZGM3YWFlYzhiYjQ3ZTU3MGQ2MjE1NDQmcm49MzAzMDI3ODIwNTQ5JmNmPTQmZGx0PTAmZGE9MTA2MjA3JnBiaT0wJmV4aWRzPTc5NTY0MSZmcmR0bz03OTQ5Nzc=&hash=074b65c1e76102f2e38bbc4247ee1fad&m=MTUx";</script></head><body></body></html>
+<!DOCTYPE html><html><head><title>正在重定向... </title><meta content="3;url=/Redirect/?d=eXFTRGNCZ0NWUXRGSXhlMUlfZ0taRkZEa1B3a2NFb3U4RTFyU1E1LVR5WHVGSUpLc0xsdUtUTVpTbmpzUXdsUnNLekVGaDlMWWtaV2Q2TDlMTjNxVU9hOGkyQmtsSE03TWkwMS1IOFhkVHNQbjBFYld0RTNLS1huNDBwMGNSTndzcWRhTTV4TUtpU1JncnRuUTVmVzRLNW1UeV8wMGFQRkhrVTFnMUxqc0JZVzd1TUFkdEFla2RWNE5jWWpFZlF4MA2" http-equiv="refresh"/><script type="text/javascript">
+    <!--
+        var hiddenGetter;
+        if (document.hidden) {
+            hiddenGetter = function() {
+                return document.hidden;
+            };
+        } else {
+            var nativeName = "";
+            
+            if (document.webkitHidden)
+                nativeName = "webkitHidden";
+            else if (document.mozHidden)
+                nativeName = "mozHidden";
+            else if (document.oHidden)
+                nativeName = "oHidden";
+            else if (document.msHidden)
+                nativeName = "msHidden";
+            
+            if (nativeName != "") {
+                hiddenGetter = function() {
+                    return document[nativeName];
+                };
+            } else {
+                // Workaround to get hasFocus() functionality on 
+                // older version of opera.
+                if (typeof document.hasFocus === 'undefined') {
+                    document.hasFocus = function () {
+                        return document.visibilityState == 'visible';
+                    };
+                }
+
+                // Use hasFocus() if we can't use the document visibility api
+                hiddenGetter = function() {
+                    return !document.hasFocus();
+                };
+            }
+        }
+
+        var interval = self.setInterval("doBotDetectingBattery()", 2);
+
+        function isNotIFramed() {
+            return window.self === window.top; 
+        }
+    
+        function isScreenBigEnough() {
+            return screen.width >= 150 && screen.height >= 150;
+        }
+
+        function isVisible(element) {
+            if (element.offsetWidth === 0 || element.offsetHeight === 0) return false;
+            var height = document.documentElement.clientHeight,
+                rects = element.getClientRects(),
+                on_top = function(r) {
+                    var x = (r.left + r.right)/2, y = (r.top + r.bottom)/2;
+                    return document.elementFromPoint(x, y) === element;
+                };
+        
+            for (var i = 0, l = rects.length; i < l; i++) { 
+                var r = rects[i],
+                    in_viewport = r.top > 0 ? r.top <= height : (r.bottom > 0 && r.bottom <= height);
+                if (in_viewport && on_top(r)) return true;
+            }
+            return false;
+        }
+
+        function createCookie(name, value, days) {
+            var expires;
+            if (days) {
+                var date = new Date();
+                date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+                expires = "; expires=" + date.toGMTString();
+            }
+            else expires = "";
+            document.cookie = name + "=" + value + expires + "; path=/";
+        }
+
+        function readCookie(name) {
+            var nameEQ = name + "=";
+            var ca = document.cookie.split(';');
+            for (var i = 0; i < ca.length; i++) {
+                var c = ca[i];
+                while (c.charAt(0) == ' ') c = c.substring(1, c.length);
+                if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length, c.length);
+            }
+            return null;
+        }
+
+        function eraseCookie(name) {
+            createCookie(name, "", -1);
+        }
+
+        function areCookiesEnabled(name, value) {
+            var r = false;
+            createCookie(name, value, 1);
+            if (readCookie(name) != null) {
+                r = true;
+                eraseCookie(name);
+            }
+            return r;
+        }
+
+        function doBotDetectingBattery() {
+            interval = window.clearInterval(interval);
+            
+            var fe = document.forms[0].elements;
+            fe["cookie"].value = areCookiesEnabled("test930", "123");
+            fe["focus"].value = !hiddenGetter();
+            fe["notiframed"].value = isNotIFramed();
+            fe["screensize"].value = isScreenBigEnough();
+            fe["visible"].value = isVisible(document.getElementById("bs-redir-body"));
+
+            document.forms[0].submit();
+        }
+    // -->
+    </script></head><body id="bs-redir-body"><form action="/Redirect/" method="POST" name="redirect"><input name="d" type="hidden" value="eXFTRGNCZ0NWUXRGSXhlMUlfZ0taRkZEa1B3a2NFb3U4RTFyU1E1LVR5WHVGSUpLc0xsdUtUTVpTbmpzUXdsUnNLekVGaDlMWWtaV2Q2TDlMTjNxVU9hOGkyQmtsSE03TWkwMS1IOFhkVHNQbjBFYld0RTNLS1huNDBwMGNSTndzcWRhTTV4TUtpU1JncnRuUTVmVzRLNW1UeV8wMGFQRkhrVTFnMUxqc0JaelpxeFdnN1Y0TkJzWWZ0SVkyWHZSMA2"/><input name="cookie" type="hidden" value=""/><input name="focus" type="hidden" value=""/><input name="notiframed" type="hidden" value=""/><input name="screensize" type="hidden" value=""/><input name="visible" type="hidden" value=""/></form>正在重定向...</body></html>
